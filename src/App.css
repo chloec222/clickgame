@@ -1,0 +1,44 @@
+
+.App-header {
+  background-color: #222;
+  height: 120px;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h1 {
+  letter-spacing: 0.2em;
+  font-weight:600;
+  font-weight:bold;
+  
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  /* text-fill-color: transparent; */
+  width: auto;
+  height: auto;
+/* first part of image must look like the last or you'll notice the jump*/
+  background-image:
+url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbnjEIhBequ_lXKj0WuT581g_q2-Ixaa45I3KIEf-alBGavFyF);
+  background-position: 0px;
+  background-repeat: repeat-x;
+
+  animation: animatedBackground 40s linear infinite;
+  -ms-animation: animatedBackground 40s linear infinite;
+  -moz-animation: animatedBackground 40s linear infinite;
+  -webkit-animation: animatedBackground 40s linear infinite;
+}
+
+#footer{
+  color: rgb(80, 79, 79);
+}

@@ -1,0 +1,9 @@
+
+* {
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+}
+
+html, body, #root {
+  background-color: rgb(5, 5, 5);
+}
